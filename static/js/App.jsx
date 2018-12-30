@@ -1,10 +1,14 @@
 import React from 'react';
+import {AppBar, Toolbar,Button} from '@material-ui/core/';
+
+
 export default class App extends React.Component {
   render () {
-    return <div>
-            <h1> Ware Noir </h1>
-            
-          </div>
+    return <AppBar position="static">
+              <Toolbar>
+                
+              </Toolbar>
+            </AppBar>
 
 
   }

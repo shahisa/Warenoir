@@ -1,7 +1,7 @@
-import React from "react";
+import React, {Fragment} from "react";
 export default class CurrentListings extends React.Component{
   render (){
-    return <div>
+    return <Fragment>
             <h3> <b>Current Listings</b></h3>
             <p> $ 5 per week per box-bag </p>
 
@@ -10,7 +10,9 @@ export default class CurrentListings extends React.Component{
               warenoir@gmail.com
 
             </p>
-          </div>
+
+            <p> Towson,MD </p>
+          </Fragment>
 
   }
 }
