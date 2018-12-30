@@ -17,7 +17,7 @@
     "npm",
     "webpack"
   ],
-  "author": "Calvin Francis & Isa Weaver",
+  "author": "Calvin Francis",
   "license": "ISC",
   "babel": {
     "presets": [

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Summary from './Summary';
+import HomePage from './HomePage';
+// import NavBar from './NavBar';
 
 
-ReactDOM.render(<App/ >, document.getElementById('content'));
+ReactDOM.render(<HomePage/ >, document.getElementById('content'));
