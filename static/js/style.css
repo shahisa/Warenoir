@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.listings {
+.listing {
     display: flex;
     flex-wrap: wrap;
 }
