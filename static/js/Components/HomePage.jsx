@@ -1,17 +1,22 @@
-import React from "react"
+import React, {Fragment} from "react"
 import ReactDOM from 'react-dom';
 import Summary from './Summary';
-import App from './App';
+import NavBar from './NavBar';
 import CurrentListings from './CurrentListings';
+
 
 class HomePage extends React.Component {
     render(){
       return (
-        <div>
-        <App />
+        <Fragment>
+
+        <NavBar />
+
         <Summary />
+
         <CurrentListings />
-        </div>
+
+        </Fragment>
 
       );
     }
